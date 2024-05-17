@@ -10,11 +10,12 @@ const markup = `
       <svg class="svg" width="110px" height="100px">
         <use href="${img}"></use>
       </svg>
-      <div> <h2 class="title">${title}</h2>
-      <ul class="list>
-        ${services.map((el) => `<li class="item"><p class="text">${el}</p></li>`).join("")}
-      </ul></div>
-     
+      <div>
+        <h2 class="title">${title}</h2>
+        <ul class="list">
+          ${services.map((el) => `<li class="item"><p class="text">${el}</p></li>`).join("")}
+        </ul>
+      </div>
       <a href="#" class="link">View more</a>
     </div>
   `
