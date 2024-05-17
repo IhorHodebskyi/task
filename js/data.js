@@ -94,7 +94,7 @@ const data = [
     link: "View more",
   },
   {
-    img: "../img/symbol-defs.svg#icon-windows",
+    img: "../img/symbol-defs.svg#icon-window",
     title: "Outdoor",
     services: [
       "Assemble an Outdoor Trampoline",
