@@ -2,6 +2,10 @@
   --background-light: #ffffff;
   --color-item: #2d2d2d;
   --color-link: #2d2d2d;
+  --green: #179d2e;
+  --red: #f02e2c;
+  --yellow: #f5af23;
+  --blue: #0177b8;
 }
 
 body {
@@ -70,16 +74,16 @@ ul {
 }
 
 .green {
-  border: solid 2px green;
+  border: solid 2px var(--green);
 }
 .red {
-  border: solid 2px red;
+  border: solid 2px var(--red);
 }
 .yellow {
-  border: solid 2px yellow;
+  border: solid 2px var(--yellow);
 }
 .blue {
-  border: solid 2px blue;
+  border: solid 2px var(--blue);
 }
 
 @media (max-width: 767px) {
